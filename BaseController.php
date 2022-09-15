@@ -54,7 +54,6 @@ class BaseController extends Controller{
 	}
 
 	public function actionConnect(){
-        ini_set('upload_max_filesize', '50M');
 		return $this->renderFile(__DIR__."/views/connect.php", ['options'=>$this->getOptions(), 'plugin' => $this->plugin]);
 	}
 

@@ -7,7 +7,7 @@ use yii\web\JqueryAsset;
 
 class Assets extends AssetBundle
 {
-	public $sourcePath = '@vendor/studio-42/elfinder';
+	public $sourcePath = '@vendor/yukisaw/elfinder';
 
 	public $publishOptions = [
         'except' => [
