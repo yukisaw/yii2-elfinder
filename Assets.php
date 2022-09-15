@@ -21,7 +21,7 @@ class Assets extends AssetBundle
 		'css/theme.css',
 	);
 	public $js = array(
-		'js/elfinder.min.js'
+		'js/elfinder.full.js'
 	);
 	public $depends = array(
 		'yii\jui\JuiAsset',
