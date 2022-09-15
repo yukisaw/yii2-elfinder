@@ -20,7 +20,7 @@
     "require": {
         "yiisoft/yii2": "~2.0.13",
         "yiisoft/yii2-jui": "*",
-        "yukisaw/elfinder": "2.1.61"
+        "yukisaw/elfinder": "2.2.2"
     },
     "extra": {
       "asset-installer-paths": {
